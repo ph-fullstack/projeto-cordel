@@ -46,11 +46,11 @@ div.center > p {
 section {
     background-color: var(--white);
     font-family: var(--fonte-texto);
-    padding: 80px 0px;
 }
 
 section > article {
     margin-left: 40px;
+    padding: 10vh 0px;
 }
 
 section > article > p {
@@ -58,21 +58,24 @@ section > article > p {
 }
 
 section.img_nature {
-    background: lightgray url('../imagens/background001.jpg') center center no-repeat fixed;
+    background: lightgray url('../imagens/background001.jpg') right center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 0px 6px 12px 0px rgba(0, 0, 0, 0.5);
 }
 
 section.img_book {
     background: lightgray url('../imagens/background002.jpg') center center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 0px 6px 6px 0px rgba(0, 0, 0, 0.5);
 }
 
 article.article {
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     display: inline-block;
-    margin-left: 20px;
+    margin: 10vh 0px 10vh 20px;
     padding: 20px;
+    text-shadow: 1px 1px 0px black;
 }
 
 footer {
